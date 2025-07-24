@@ -2,7 +2,7 @@ import googlemaps
 import pandas as pd
 import time
 
-API_KEY = 'AIzaSyDsJ7le3-B4HGY3o-3d-KtpvO8DTdKxhIc'
+API_KEY = ''
 gmaps = googlemaps.Client(key=API_KEY)
 
 locations_df = pd.read_csv('locations_spl.csv')
